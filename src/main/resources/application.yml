@@ -1,0 +1,18 @@
+spring:
+    datasource:
+        driver-class-name: org.postgresql.Driver
+        url: jdbc:postgresql://localhost:5432/ligadb?createDatabaseIfNotExist=true&useSSL=false
+        username: postgres
+        password: root
+        tomcat:
+            max-active: 50
+            max-idle: 20
+            max-wait: 20000
+            min-idle: 15
+            test-on-borrow: true
+    jpa:
+        database: POSTGRESQL
+        database-platform: org.hibernate.dialect.PostgreSQLDialect
+        generate-ddl: true
+        hibernate:
+            ddl-auto: update
