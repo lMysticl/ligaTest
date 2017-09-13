@@ -5,13 +5,13 @@ INSERT INTO products (id,title)
 VALUES(2,'iphone 8 plus');
 
 INSERT INTO products (id,title)
-VALUES(3,'iphone 8 plus');
+VALUES(3,'iphone 6 plus');
 
 INSERT INTO products (id,title)
-VALUES(4,'iphone 8 plus');
+VALUES(4,'iphone 7 plus');
 
 INSERT INTO products (id,title)
-VALUES(5,'iphone 8 plus');
+VALUES(5,'iphone X');
 
 INSERT INTO product_characteristics (id,name, value)
 VALUES(1,'diagonal', 5.5);
